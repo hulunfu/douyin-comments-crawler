@@ -1,0 +1,27 @@
+# 抖音评论抓取工具 - Python 依赖包
+
+# Web 框架
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# HTTP 客户端
+aiohttp>=3.9.0
+httpx>=0.25.0
+
+# 数据处理
+pydantic>=2.0.0
+pandas>=2.0.0
+openpyxl>=3.1.0  # Excel 支持
+
+# 网页解析
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# 浏览器自动化（必需，用于数据采集和评论抓取）
+DrissionPage>=4.0.0
+
+# 中文分词（用于高频词汇分析）
+jieba>=0.42.1
+
+# 其他工具
+python-multipart>=0.0.6
